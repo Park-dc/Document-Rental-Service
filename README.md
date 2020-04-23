@@ -294,7 +294,7 @@ public interface InventoryService {
 
 spring:  #local영역
   profiles: default
-- application.yml
+  
 api:
   url:
     product: http://localhost:8084
