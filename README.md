@@ -289,7 +289,7 @@ public interface InventoryService {
     public Long inventoryCheck(@RequestParam("productId") Long productId);
 
 }
-```
+
 - application.yml 수정
 
 spring:  #local영역
@@ -305,6 +305,7 @@ spring: #클러스터 영역
 api:
   url:
     product: http://inventorymanager:8080
+```
 
 - 재고 확인 직후 결제를 요청하도록 처리
 ```
