@@ -170,7 +170,7 @@ http get http://52.231.107.179:8080/rentalCancel\?productId\=1\&orderId\=1
 {"eventType":"RentalCancellationOccured","timestamp":"20200423013817","id":null,"orderId":1,"productId":1,"me":true}
 --> 요금반환됨 이벤트 발생
 {"eventType":"FeeRefundCompleted","timestamp":"20200423013817","id":null,"amount":null,"orderId":1,"me":true}
---> 주문취소됨 이벤트 발생
+--> 랜탈 제품 회수 됨 이벤트 발생
 {"eventType":"RetriveStarted","timestamp":"20200423013817","id":null,"orderId":1,"me":true}
 
 # 재고 부족시 강제 주문 취소(각 product는 100개의 기본 재고 등록 됨 110개를 요청해봄)
